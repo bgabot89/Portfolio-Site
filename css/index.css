@@ -346,3 +346,12 @@ a.active {
 .ppgraph {
 	margin: 0px 100px 0px 100px;
 }
+
+#mail {
+	height:55px;
+}
+
+#mail:hover {
+	transform: scale(1.3);
+	cursor: pointer;
+}
