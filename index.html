@@ -1,232 +1,437 @@
-	 <!DOCTYPE html>
- <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-</head>
- <link rel="stylesheet" href="css/index.css">
- <script src="js/app.js"></script>
- <script src="js/scroll.js"></script>
+<title>Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script> -->
 
- <body>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	 rel="stylesheet">
+</head>
+<link rel="stylesheet" href="css/index.css">
+<script src="js/app.js"></script>
+<script src="js/scroll.js"></script>
+
+<!-- <script>
+$(function() {
+	$( "#draggable" ).draggable();
+});
+</script>
+</head> -->
+
+<body>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Celine Is Awesome</a>
-        </div>
+ <div class="container">
+		 <!-- Brand and toggle get grouped for better mobile display -->
+		 <div class="navbar-header page-scroll">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+				 </button>
+				 <!--header deactivated for now until i get an official logo -->
+				 <!-- <a class="navbar-brand page-scroll" href="#page-top">briangabot.com</a> -->
+		 </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden active">
-                    <a href="#page-top"></a>
-                </li>
-                <li class="">
-                    <a class="page-scroll" href="#about">About Me</a>
-                </li>
-                <li class="">
-                    <a class="page-scroll" href="#Projects">Projects</a>
-                </li>
-                <li class="">
-                    <a class="page-scroll" href="#skills">Skills</a>
-                </li>
-                <li class="">
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
+		 <!-- Collect the nav links, forms, and other content for toggling -->
+		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				 <ul class="nav navbar-nav navbar-right">
+						 <li class="hidden active">
+								 <a href="#page-top"></a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="#about">About Me</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="#Projects">Projects</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="#skills">Skills</a>
+						 </li>
+						 <li class="">
+								 <a class="page-scroll" href="#contact">Contact</a>
+						 </li>
+				 </ul>
+		 </div>
+		 <!-- /.navbar-collapse -->
+ </div>
+ <!-- /.container-fluid -->
 </nav>
-
-<section class="section section--menu" id="Alonso">
-			<h2 class="section__title">Alonso</h2>
-			<span class="link-copy"></span>
-			<nav class="menu menu--alonso">
-				<ul class="menu__list">
-					<li class="menu__item menu__item--current"><a href="#" class="menu__link">Home</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Gallery</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Clients</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
-					<li class="menu__line"></li>
-				</ul>
-			</nav>
-		</section>
 
 
 
 <section class="header">
-	<section class="color">
+<section class="color">
 <h1> BRIAN </h1>
 <h1> GABOT </h1>
 <ul id="list">
-  <li><a class="page-scroll" href="#about">[About]</a></li>
-  <li><a class="page-scroll" href="#Projects">[Projects]</a></li>
-  <li><a class="page-scroll" href="#skills">[Skills]</a></li>
-  <li><a class="page-scroll" href="#contact">[Contact]</a></li>
+<li>[web developer]</li> <b> | </b>
+<li>[illustrator]</li>
 </ul>
-	</section>
+</section>
 </section>
 
 <div class="about" id="about">
-<h2 class="about-par"> <span id="About"> About </span> </h2>
-<p class="summary"> My name is Brian Gabot. I am a developer currently seeking a full-stack/or Front-end developer position. My background is in business operations and analytics. However, after a few years in the field, I decided to make a change into a web development career. In order to achieve my goal, I attended General Assembly's Web Development Immersive Program in September 2015 and graduated in December 2015. </p>
-<p class="summary"> While I'm not developing new applications, I like to illustrate with art software programs and play video games. </p>
+<div class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
+<h2 class="about-par"> <span id="About"> About Me </span> </h2>
+<p class="summary"> My name is Brian Gabot. I am a developer currently seeking a full-stack/or Front-end developer position. I graduated from the University of California, Santa Cruz in 2011 and had plans to become an accountant or financial analyst. However, I felt that these job occupations would not make me happy. I continued to work a few jobs dealing with business operations and analytics. One particular task that I was assigned as a catalog coordinator at Glyde was to manage website content. It was then I realized that my true passion was to create things that people would find useful, it was here on out that I decided to make a change into a web development career. In order to achieve my goal, I attended General Assembly's Web Development Immersive Program in September 2015 and graduated in December 2015. </p>
+<p class="summary"> While I'm not in front of my computer developing or illustrating, I like to play table-top or video games.</p>
+</div>
 </div>
 
-<div class="row text-center" id="Projects">
-	<h2>Projects</h2>
-	<!--Description for IW-RPG -->
-	<div class="col-md-4">
-		<div class="proj">
-			<a href="https://shrouded-caverns-8468.herokuapp.com/">
-		 	<img src="css/images/iw-rpg.png" width="300px" height="170px">
-			</a>
-		</div>
-		<div class="info2 text-center">
-		 	<h3>IW-RPG</h3>
-			<p>IW-RPG is an application used to determine what type of game rpg class bests fits you. </p>
-			Technologies used: Javascript, MongoDB, Node.js, Mongoose.js, CSS, Bcrypt, jQuery, HTML, API, Bootstrap, Traitify API
-		</div>
-	</div>
+<!-- <div class="row text-center" id="Projects">
+<h2>Projects</h2>
+<div class="col-md-4">
+ <div class="proj">
+	 <a href="https://shrouded-caverns-8468.herokuapp.com/">
+	 <img src="css/images/iw-rpg.png" width="300px" height="170px">
+	 </a>
+ </div>
+ <div class="info2 text-center">
+	 <h3>IW-RPG</h3>
+	 <p>IW-RPG is an application used to determine what type of game rpg class bests fits you. </p>
+	 Technologies used: Javascript, MongoDB, Node.js, Mongoose.js, CSS, Bcrypt, jQuery, HTML, API, Bootstrap, Traitify API
+ </div>
+</div>
 
 <div class="col-md-4">
-	<div class="proj">
-		<a href="http://lfg-meetup.herokuapp.com/">
-	 	<img src="css/images/lfg.png" width="300px" height="170px">
-	 	</a>
- 	</div>
- 	<div class="info2">
-	 	<h3>LFG</h3>
-	 	<p>LFG is a social networking portal targeted towards gamers. Members will be able to form meet up groups for a specific game. I collaborated with three other group members to create a website built mainly from Ruby on Rails. On the back-end, I worked on routings, authorizations, validations and seeded data while on the front-end, I worked on CSS stylings and some design work. </p>
-	 	Technologies used: PostgresSQL, Ruby on Rails, CSS, Bootstrap, HTML, Javascript, Material Design
- 	</div>
+<div class="proj">
+ <a href="http://lfg-meetup.herokuapp.com/">
+ <img src="css/images/lfg.png" width="300px" height="170px">
+ </a>
+</div>
+<div class="info2">
+ <h3>LFG</h3>
+ <p>LFG is a social networking portal targeted towards gamers. Members will be able to form meet up groups for a specific game. I collaborated with three other group members to create a website built mainly from Ruby on Rails. On the back-end, I worked on routings, authorizations, validations and seeded data while on the front-end, I worked on CSS stylings and some design work. </p>
+ Technologies used: PostgresSQL, Ruby on Rails, CSS, Bootstrap, HTML, Javascript, Material Design
+</div>
 </div>
 
 <div class="col-md-4">
 <div class="proj">
 <a href="http://collabacomic.herokuapp.com/">
- 	<img src="css/images/profilecollab.png" width="300px" height="170px">
- 	 	</a>
- 	 	</div>
- <div class="info2">
- <h3>Collab-A-Comic</h3>
+<img src="css/images/profilecollab.png" width="300px" height="170px">
+ </a>
+ </div>
+<div class="info2">
+<h3>Collab-A-Comic</h3>
 <p>Collab-a-comic is a website application that helps comic book writers and artists find a collaboration partner. </p>
 Technologies used: PostgresSQL, Ruby on Rails, CSS, Bootstrap, HTML, Javascript, Action Mailer
 </div>
-	</div>
+</div>
 </div>
 
+<div class="row text-center" id="Projects">
+<h2>Projects</h2>
 <div class ="row" id="Projects">
 <div class="col-md-4">
-	<div class="proj text-center">
-		<a href="http://projectsakura.herokuapp.com/">
-	 	<img src="css/images/projsak.png" width="300px" height="170px">
- 	 	</a>
- 	</div>
-		 <div class="info2 text-center">
-			 <h3>Project Sakura</h3>
-				<p>Project Sakura is an application to help Music Enthusiasts find Japanese Music Concerts/Festivals in their area  </p>
-				Technologies used: Express.js, Node, CSS, Bootstrap, SVG animations, Adobe Illustrator, React.js, Soundcloud API, Gulp.js
-		</div>
-	</div>
+<div class="proj text-center">
+ <a href="http://projectsakura.herokuapp.com/">
+ <img src="css/images/projsak.png" width="300px" height="170px">
+ </a>
+</div>
+	<div class="info2 text-center">
+		<h3>Project Sakura</h3>
+		 <p>Project Sakura is an application to help Music Enthusiasts find Japanese Music Concerts/Festivals in their area  </p>
+		 Technologies used: Express.js, Node, CSS, Bootstrap, SVG animations, Adobe Illustrator, React.js, Soundcloud API, Gulp.js
+ </div>
+</div>
+</div> -->
+
+<div class="row text-center" id="Projects">
+<h2>Projects</h2>
+
+<!--Project Sakura Image-->
+<div class="row PJCT">
+<div class = "os-animation col-md-6" data-os-animation="fadeIn" data-os-animation-delay="0.5s" id ="sakura">
+<!--Test for new svg hover effect -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" class="Comp" id="proj_saku" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-550 123.3 898.5 546.7" style="enable-background:new -550 123.3 898.5 546.7;" xml:space="preserve">
+<style type="text/css">
+	.st10{fill:#E5B8D3;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#F9F9F9;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:54.4534px;}
+	.st5{opacity: 0; fill:#F9F9F9;}
+</style>
+<path id="screen" class="st10" d="M-408.9,166.9h622c0,0,15.3,9.3,14.7,23.3c-0.7,14,2.7,408.7-0.7,413.3s-3.3,4.7-3.3,4.7
+	s-641.4,0.5-648.1-1.5s-7.2-412.5-3.9-419.8C-424.9,179.6-422.9,166.9-408.9,166.9z"/>
+<image style="display:none;overflow:visible;enable-background:new;" width="495" height="287" id="iw-rpg" xlink:href="../../Desktop/Portfolio/css/images/iw-rpg.png"  transform="matrix(1.1525 0 0 1.1525 -381.0778 222.6138)">
+</image>
+<path id="base" class="st10" d="M325.2,606.7v24.4c0,0-28,17.7-37.3,18c-17.1,0.6-782.1-1.9-780-2c0,0-32-8.7-34-14s0-26.4,0-26.4
+	H325.2z"/>
+<path id="hole_1" class="st1" d="M-170,609.1c0,0,0,10.8,4.9,10.8s121.9,0,121.9,0s4.9-10.5,4.9-10.8
+	C-38.2,608.9-170,609.1-170,609.1z"/>
+<path id="hole_2" class="st1" d="M265,620.3h-18c0,0-2.5,3.1,0,3.4c2.5,0.3,28.3,0,28.3,0s0.9,0,1-0.9s1.3-2.3-1.8-2.5
+	C271.5,620.2,265,620.3,265,620.3z"/>
+<image style="display:none;overflow:visible;enable-background:new;" width="2751" height="1495" id="lfg" xlink:href="css/images/lfg-2.png"  transform="matrix(0.2074 0 0 0.2218 -381.0778 222.6138)">
+</image>
+<image style="enable-background:new;" width="2762" height="1595" id="collab" xlink:href="css/images/collab.jpg"  transform="matrix(0.2075 0 0 0.2075 -382.3754 222.5257)">
+</image>
+
+<image class = "image" style="enable-background:new;" width="2758" height="1606" id="saku" xlink:href="css/images/saku.png"  transform="matrix(0.2075 0 0 0.2075 -381.9604 221.3845)">
+
+</image>
+<a xlink:href="http://projectsakura.herokuapp.com/">
+<image class = "image" style="overflow:visible;enable-background:new;" width="2758" height="1606" id="black" xlink:href="css/images/black.jpg" transform="matrix(0.2075 0 0 0.2075 -381.9604 221.3845)">
+	</a>
+</image>
+<text transform="matrix(1 0 0 1 -250.4967 364.7416)" class="st2 st3 st4">Project Sakura</text>
+<!-- <text transform="matrix(1 0 0 1 -199.4999 364.2425)" class="st2 st3 st4">IW-RPG</text>
+<text transform="matrix(1 0 0 1 -261.4944 370.7414)" class="st2 st3 st4">Collab-A-Comic</text> -->
+<!-- <text transform="matrix(1 0 0 1 -219.4962 347.7423)"><tspan x="0" y="0" class="st5 st3 st4">Looking For </tspan><tspan x="0" y="65.3" class="st5 st3 st4">Group</tspan></text> -->
+</svg>
 </div>
 
-	<div class= "row" id="skills">
-		<h2> Skills </h2>
+<div class= "os-animation proj-para col-md-8 col-lg-6" data-os-animation="bounceInRight" data-os-animation-delay="0s" id="testpp">
+ <span class="text1"> <h class= "h"> <strong> Project Sakura </strong> </h> </span> <br>
+  <span class="text2"> <p class="ppgraph"> <strong> Project Sakura is an application to help Music Enthusiasts find Japanese Music Concerts/Festivals in their area   </p>
+  <p class="ppgraph"> Technologies used: Express.js, Node, CSS, Bootstrap, SVG animations, Adobe Illustrator, React.js, Soundcloud API, Gulp.js</strong> </p> </span>
+</div>
+
+</div>
+
+<!--IW-RPG Image-->
+<div class="row PJCT">
+<div class = "os-animation col-md-6" data-os-animation="fadeIn" data-os-animation-delay="0.5s" id ="sakura">
+<!--Test for new svg hover effect -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" class="Comp" id="proj_saku" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-550 123.3 898.5 546.7" style="enable-background:new -550 123.3 898.5 546.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7F7F7F;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#F9F9F9;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:54.4534px;}
+	.st5{opacity: 0; fill:#F9F9F9;}
+</style>
+<path id="screen" class="st0" d="M-408.9,166.9h622c0,0,15.3,9.3,14.7,23.3c-0.7,14,2.7,408.7-0.7,413.3s-3.3,4.7-3.3,4.7
+	s-641.4,0.5-648.1-1.5s-7.2-412.5-3.9-419.8C-424.9,179.6-422.9,166.9-408.9,166.9z"/>
+<image style="overflow:visible;enable-background:new;" width="495" height="287" id="iw-rpg" xlink:href="../../Desktop/Portfolio/css/images/iw-rpg.png"  transform="matrix(1.1525 0 0 1.1525 -381.0778 222.6138)">
+</image>
+<path id="base" class="st0" d="M325.2,606.7v24.4c0,0-28,17.7-37.3,18c-17.1,0.6-782.1-1.9-780-2c0,0-32-8.7-34-14s0-26.4,0-26.4
+	H325.2z"/>
+<path id="hole_1" class="st1" d="M-170,609.1c0,0,0,10.8,4.9,10.8s121.9,0,121.9,0s4.9-10.5,4.9-10.8
+	C-38.2,608.9-170,609.1-170,609.1z"/>
+<path id="hole_2" class="st1" d="M265,620.3h-18c0,0-2.5,3.1,0,3.4c2.5,0.3,28.3,0,28.3,0s0.9,0,1-0.9s1.3-2.3-1.8-2.5
+	C271.5,620.2,265,620.3,265,620.3z"/>
+<image style="display:none; overflow:visible;enable-background:new;" width="2751" height="1495" id="lfg" xlink:href="css/images/lfg-2.png"  transform="matrix(0.2074 0 0 0.2218 -381.0778 222.6138)">
+</image>
+<image style="display:none; enable-background:new;" width="2762" height="1595" id="collab" xlink:href="css/images/collab.jpg"  transform="matrix(0.2075 0 0 0.2075 -382.3754 222.5257)">
+</image>
+<image class = "image" style="display:none; enable-background:new;" width="2758" height="1606" id="saku" xlink:href="css/images/saku.png"  transform="matrix(0.2075 0 0 0.2075 -381.9604 221.3845)">
+</image>
+<a xlink:href="http://shrouded-caverns-8468.herokuapp.com/">
+<image class = "image" style="overflow:visible;enable-background:new;" width="2758" height="1606" id="black" xlink:href="css/images/black.jpg"  transform="matrix(0.2075 0 0 0.2075 -381.9604 221.3845)">
+</a>
+</image>
+<!-- <text transform="matrix(1 0 0 1 -250.4967 364.7416)" class="st2 st3 st4">Project Sakura</text> -->
+<text transform="matrix(1 0 0 1 -199.4999 364.2425)" class="st2 st3 st4">IW-RPG</text>
+<!-- <text transform="matrix(1 0 0 1 -261.4944 370.7414)" class="st2 st3 st4">Collab-A-Comic</text> -->
+<!-- <text transform="matrix(1 0 0 1 -219.4962 347.7423)"><tspan x="0" y="0" class="st5 st3 st4">Looking For </tspan><tspan x="0" y="65.3" class="st5 st3 st4">Group</tspan></text> -->
+</svg>
+</div>
+<div class= "os-animation proj-para col-md-8 col-lg-6" data-os-animation="bounceInRight" data-os-animation-delay="0s" id="testpp">
+	<!-- <div class= "para animated bounceInRight col-md-4" id="testpp"> -->
+	<!-- class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s" -->
+ <span class="text1"> <h class= "h"> <strong> IW-RPG </strong> </h> </span> <br>
+  <span class="text2"> <p class="ppgraph"> <strong> IW-RPG is an application used to determine what type of game rpg class bests fits you. </p>
+  <p class="ppgraph"> Technologies used: Javascript, MongoDB, Node.js, Mongoose.js, CSS, Bcrypt, jQuery, HTML, API, Bootstrap, Traitify API</strong> </p> </span>
+</div>
+</div>
+
+
+<!--LFG Image-->
+<div class="row PJCT">
+<div class = "os-animation col-md-6" data-os-animation="fadeIn" data-os-animation-delay="0.5s" id ="sakura">
+<!--Test for new svg hover effect -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" class="Comp" id="proj_saku" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-550 123.3 898.5 546.7" style="enable-background:new -550 123.3 898.5 546.7;" xml:space="preserve">
+<style type="text/css">
+	.st40{fill:#0F9D58;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#F9F9F9;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:54.4534px;}
+	.st5{opacity: 0; fill:#F9F9F9;}
+</style>
+<path id="screen" class="st40" d="M-408.9,166.9h622c0,0,15.3,9.3,14.7,23.3c-0.7,14,2.7,408.7-0.7,413.3s-3.3,4.7-3.3,4.7
+	s-641.4,0.5-648.1-1.5s-7.2-412.5-3.9-419.8C-424.9,179.6-422.9,166.9-408.9,166.9z"/>
+<image style="display:none; overflow:visible;enable-background:new;" width="495" height="287" id="iw-rpg" xlink:href="../../Desktop/Portfolio/css/images/iw-rpg.png"  transform="matrix(1.1525 0 0 1.1525 -381.0778 222.6138)">
+</image>
+<path id="base" class="st40" d="M325.2,606.7v24.4c0,0-28,17.7-37.3,18c-17.1,0.6-782.1-1.9-780-2c0,0-32-8.7-34-14s0-26.4,0-26.4
+	H325.2z"/>
+<path id="hole_1" class="st1" d="M-170,609.1c0,0,0,10.8,4.9,10.8s121.9,0,121.9,0s4.9-10.5,4.9-10.8
+	C-38.2,608.9-170,609.1-170,609.1z"/>
+<path id="hole_2" class="st1" d="M265,620.3h-18c0,0-2.5,3.1,0,3.4c2.5,0.3,28.3,0,28.3,0s0.9,0,1-0.9s1.3-2.3-1.8-2.5
+	C271.5,620.2,265,620.3,265,620.3z"/>
+<image style="overflow:visible;enable-background:new;" width="2751" height="1495" id="lfg" xlink:href="css/images/lfg-2.png"  transform="matrix(0.2074 0 0 0.2218 -381.0778 222.6138)">
+</image>
+<image style="display:none; enable-background:new;" width="2762" height="1595" id="collab" xlink:href="css/images/collab.jpg"  transform="matrix(0.2075 0 0 0.2075 -382.3754 222.5257)">
+</image>
+<image class = "image" style="display:none; enable-background:new;" width="2758" height="1606" id="saku" xlink:href="css/images/saku.png"  transform="matrix(0.2075 0 0 0.2075 -381.9604 221.3845)">
+</image>
+<a xlink:href="http://lfg-meetup.herokuapp.com/">
+<image class = "image" style="overflow:visible;enable-background:new;" width="2758" height="1606" id="black" xlink:href="css/images/black.jpg"  transform="matrix(0.2075 0 0 0.2075 -381.9604 221.3845)">
+</a>
+</image>
+<!-- <text transform="matrix(1 0 0 1 -250.4967 364.7416)" class="st2 st3 st4">Project Sakura</text> -->
+<!-- <text transform="matrix(1 0 0 1 -199.4999 364.2425)" class="st2 st3 st4">IW-RPG</text> -->
+<!-- <text transform="matrix(1 0 0 1 -261.4944 370.7414)" class="st2 st3 st4">Collab-A-Comic</text> -->
+<text transform="matrix(1 0 0 1 -219.4962 347.7423)"><tspan x="0" y="0" class="st5 st3 st4">Looking For </tspan><tspan x="0" y="65.3" class="st5 st3 st4">Group</tspan></text>
+</svg>
+</div>
+<div class= "os-animation proj-para col-md-8 col-lg-6" data-os-animation="bounceInRight" data-os-animation-delay="0s" id="testpp">
+ <span class="text1"> <h class= "h"> <strong> LFG </strong> </h> </span> <br>
+  <span class="text2"> <p class="ppgraph"> <strong> LFG is a social networking portal targeted towards gamers. Members will be able to form meet up groups for a specific game. I collaborated with three other group members to create a website built mainly from Ruby on Rails. On the back-end, I worked on routings, authorizations, validations and seeded data while on the front-end, I worked on CSS stylings and some design work. </p>
+  <p class="ppgraph"> Technologies used: PostgresSQL, Ruby on Rails, CSS, Bootstrap, HTML, Javascript, Material Design</strong> </p> </span>
+</div>
+</div>
+
+
+<!--COLLAB-A-COMIC Image-->
+<div class="row PJCT">
+<div class = "os-animation col-md-6" data-os-animation="fadeIn" data-os-animation-delay="0.5s" id ="sakura">
+<!--Test for new svg hover effect -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" class="Comp" id="proj_saku" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-550 123.3 898.5 546.7" style="enable-background:new -550 123.3 898.5 546.7;" xml:space="preserve">
+<style type="text/css">
+	.st20{fill:#BFAD59;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#F9F9F9;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:54.4534px;}
+	.st5{opacity: 0; fill:#F9F9F9;}
+</style>
+<path id="screen" class="st20" d="M-408.9,166.9h622c0,0,15.3,9.3,14.7,23.3c-0.7,14,2.7,408.7-0.7,413.3s-3.3,4.7-3.3,4.7
+	s-641.4,0.5-648.1-1.5s-7.2-412.5-3.9-419.8C-424.9,179.6-422.9,166.9-408.9,166.9z"/>
+<image style="overflow:visible;enable-background:new;" width="495" height="287" id="iw-rpg" xlink:href="../../Desktop/Portfolio/css/images/iw-rpg.png"  transform="matrix(1.1525 0 0 1.1525 -381.0778 222.6138)">
+</image>
+<path id="base" class="st20" d="M325.2,606.7v24.4c0,0-28,17.7-37.3,18c-17.1,0.6-782.1-1.9-780-2c0,0-32-8.7-34-14s0-26.4,0-26.4
+	H325.2z"/>
+<path id="hole_1" class="st1" d="M-170,609.1c0,0,0,10.8,4.9,10.8s121.9,0,121.9,0s4.9-10.5,4.9-10.8
+	C-38.2,608.9-170,609.1-170,609.1z"/>
+<path id="hole_2" class="st1" d="M265,620.3h-18c0,0-2.5,3.1,0,3.4c2.5,0.3,28.3,0,28.3,0s0.9,0,1-0.9s1.3-2.3-1.8-2.5
+	C271.5,620.2,265,620.3,265,620.3z"/>
+<image style="display:none; overflow:visible;enable-background:new;" width="2751" height="1495" id="lfg" xlink:href="css/images/lfg-2.png"  transform="matrix(0.2074 0 0 0.2218 -381.0778 222.6138)">
+</image>
+<image style="enable-background:new;" width="2762" height="1595" id="collab" xlink:href="css/images/collab.jpg"  transform="matrix(0.2075 0 0 0.2075 -382.3754 222.5257)">
+</image>
+<image class = "image" style="display:none; enable-background:new;" width="2758" height="1606" id="saku" xlink:href="css/images/saku.png"  transform="matrix(0.2075 0 0 0.2075 -381.9604 221.3845)">
+</image>
+<a xlink:href="http://collabacomic.herokuapp.com/">
+<image class = "image" style="overflow:visible;enable-background:new;" width="2758" height="1606" id="black" xlink:href="css/images/black.jpg"  transform="matrix(0.2075 0 0 0.2075 -381.9604 221.3845)">
+</a>
+</image>
+<!-- <text transform="matrix(1 0 0 1 -250.4967 364.7416)" class="st2 st3 st4">Project Sakura</text> -->
+<!-- <text transform="matrix(1 0 0 1 -199.4999 364.2425)" class="st2 st3 st4">IW-RPG</text> -->
+<text transform="matrix(1 0 0 1 -261.4944 370.7414)" class="st2 st3 st4">Collab-A-Comic</text>
+<!-- <text transform="matrix(1 0 0 1 -219.4962 347.7423)"><tspan x="0" y="0" class="st5 st3 st4">Looking For </tspan><tspan x="0" y="65.3" class="st5 st3 st4">Group</tspan></text> -->
+</svg>
+</div>
+<div class= "os-animation proj-para col-md-8 col-lg-6" data-os-animation="bounceInRight" data-os-animation-delay="0s" id="testpp">
+ <span class="text1"> <h class= "h"> <strong> Collab-a-Comic </strong> </h> </span> <br>
+  <span class="text2"> <p class="ppgraph"> <strong> Collab-a-comic is a website application that helps comic book writers and artists find a collaboration partner.   </p>
+  <p class="ppgraph"> Technologies used: PostgresSQL, Ruby on Rails, CSS, Bootstrap, HTML, Javascript, Action Mailer, Adobe Photoshop</strong> </p> </span>
+</div>
+</div>
+</div>
+
+
+
+<div class= "os-animation row" data-os-animation="fadeIn" data-os-animation-delay="0.5s" id="skills">
+<h2> Skills </h2>
 	<div class= "col-lg-3 col-md-4 col-sm-4 col-xs-3 text-center" id="Skills">
-		<h4> Languages </h4>
+ <h4> Languages </h4>
 	<div>
-	<img src="css/images/html5.png" height="100" width="100">
-			<ul class="listings">
-				<li> HTML5 </li> <b> | </b>
-				<li> CSS3 </li> <b> | </b>
-				<li> Javascript </li> <b> | </b>
-				<li> Ruby </li>
-			</ul>
-			</div>
-			</div>
+<img src="css/images/html5.png" height="100" width="100">
+	 <ul class="listings">
+		 <li> HTML5 </li> <b> | </b>
+		 <li> CSS3 </li> <b> | </b>
+		 <li> Javascript </li> <b> | </b>
+		 <li> Ruby </li>
+	 </ul>
+ </div>
+ </div>
 
 <div class=" col-lg-3 col-md-4 col-sm-4 col-xs-3 text-center">
-<h4> Frameworks </h4>
-	<img src="css/images/ruby.png" width="100" height="100">
-		<ul class="listings">
-		<li> Node.js </li> <b> | </b>
-		<li> Express.js </li> <b> | </b>
-		<li> AngularJS </li> <b> | </b>
-		<li> Ruby on Rails </li>
-		</ul>
-		</div>
+<h4> Frameworks/Libraries </h4>
+<img src="css/images/ruby.png" width="100" height="100">
+ <ul class="listings">
+ <li> Node.js </li> <b> | </b>
+ <li> Express.js </li> <b> | </b>
+ <li> AngularJS </li> <b> | </b>
+ <li> Ruby on Rails </li> <b> | </b>
+ <li> React.js </li> <b> | </b>
+ <li> Bootstrap </li> <b> | </b>
+ <li> jQuery </li>
+ </ul>
+ </div>
 
 <div class="col-lg-3 col-md-4 col-sm-4 col-xs-3 text-center">
 <h4> Databases </h4>
-	<img src="css/images/postgres.png" width="100" height="100">
-		<ul class="listings">
-		<li> PostgreSQL </li> <b> | </b>
-		<li> MongoDB </li> <b> | </b>
-		<li> Mongoose.js </li>
-		</ul>
-	</div>
+<img src="css/images/postgres.png" width="100" height="100">
+ <ul class="listings">
+ <li> PostgreSQL </li> <b> | </b>
+ <li> MongoDB </li> <b> | </b>
+ <li> Mongoose.js </li>
+ </ul>
+</div>
 
 <div class="col-lg-3 col-md-4 col-sm-4 col-xs-3 text-center">
 <h4> Other </h4>
-	<img src="css/images/Photoshop.jpg" width="100" height="100">
-			<ul class="listings">
-			<li> Git/Github </li> <b> | </b>
-			<li> Bootstrap </li> <b> | </b>
-			<li> JIRA </li> <b> | </b>
-			<li> Heroku </li> <b> | </b>
-			<li> React.js </li> <b> | </b>
-			<li> Photoshop </li> <b> | </b>
-			<li> Illustrator </li>
-			</ul>
-			</div>
+<img src="css/images/Photoshop.jpg" width="100" height="100">
+	 <ul class="listings">
+	 <li> Git/Github </li> <b> | </b>
+	 <li> JIRA </li> <b> | </b>
+	 <li> Heroku </li> <b> | </b>
+	 <li> Photoshop </li> <b> | </b>
+	 <li> Illustrator </li>
+	 </ul>
+	 </div>
 
-	</div>
-
-	<div id="contact">
-<h2> Contact </h2>
-	<div class="col-lg-6 col-md-6 col-sm-4 text-center">
-		<div class="icons">
-	<i class="material-icons">local_phone</i>
-			</div>
-	<li> <strong> Phone:</strong> 408-499-5531 </li>
-	</div>
-<div class="col-lg-6 col-md-6 col-sm-4 text-center">
-	<div>
-		<i class="material-icons">mail</i>
-	</div>
-		<li> <strong> Email:</strong> bgabot89@gmail.com </li>
 </div>
-<h2> Want to learn more about me? Please check these links here:	</h2>
+
+<div class = "os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.5s" id="contact">
+<h2> Contact </h2>
+<div class="col-lg-6 col-md-6 col-sm-4 text-center">
+<div>
+</div>
+</div>
+<h2> Want to reach out to me? Please feel free to contact me through the following:	</h2>
 
 <div class="col-md-12 text-center">
-	<a href="http://www.linkedin.com/in/briangabot">
-	<img id="linkedin" src="css/images/linkedin.png">
-	</a>
-	<a href="https://github.com/bgabot89">
-	<img id="github" src="css/images/github.png">
-	</a>
+<a href="mailto:bgabot89@gmail.com">
+<img id="mail" src="css/images/email.png"></i>
+</a>
+<a href="http://www.linkedin.com/in/briangabot">
+<img id="linkedin" src="css/images/linkedin.png">
+</a>
+<a href="https://github.com/bgabot89">
+<img id="github" src="css/images/github.png">
+</a>
 </div>
 </div>
 
-	</body>
+</body>
 </html>

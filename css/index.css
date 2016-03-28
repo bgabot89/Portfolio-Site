@@ -294,6 +294,10 @@ a.active {
   -webkit-animation-delay: 1s;
 }
 
+.Comp:hover{
+	cursor: pointer;
+}
+
 .text1 {
 	padding-left: 100px;
 }
@@ -355,3 +359,55 @@ a.active {
 	transform: scale(1.3);
 	cursor: pointer;
 }
+
+.proj-para {
+	background-color: white;
+	border-radius: 5px;
+}
+
+
+#proj_saku .st2 {
+	opacity: 0;
+}
+
+#proj_saku:hover .st2{
+	opacity: 1;
+}
+
+#proj_saku:hover .st5{
+	opacity: 1;
+}
+
+#proj_saku:hover #black{
+	opacity: 0.60;
+}
+
+#black {
+	opacity: 0;
+}
+
+#proj_saku:hover .st1 {
+	fill:#e8ff71;
+}
+
+/*#id-img {
+  position: relative;
+  width: 20em; min-height: 10em;
+  background: rgba(0,0,0,0) url(images/lfg.png);
+  transition: background-color 1s;
+}
+#id-img:hover {
+  background-color: rgba(0,0,0,.5);
+}
+#id-img:before {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: inherit;
+  content: ' ';
+}
+*/
+
+
+/*#proj_saku:hover #saku {
+	opacity: 0.10;
+}*/
