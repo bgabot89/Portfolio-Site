@@ -390,6 +390,9 @@ a.active {
 	fill:#e8ff71;
 }
 
+.row {
+	margin-right: 0px;
+}
 /*#id-img {
   position: relative;
   width: 20em; min-height: 10em;
