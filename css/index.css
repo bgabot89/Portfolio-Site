@@ -101,9 +101,8 @@ div.col-md-4:hover .info2 {
 
 .about {
 	font-family: Lato;
-	background-color: rgba(0,0,0,0.5);
-	color:#ECECEC;
-	height:500px;
+	/*color:white;*/
+	/*height:500px;*/
 	padding: 100px 0px 0px 0px;
 }
 
@@ -113,7 +112,7 @@ html, body {
 }
 
 body > .Projects {
-	height:700px;
+	/*height:700px;*/
 	position: relative;
 }
 .Projects {
@@ -286,8 +285,9 @@ a.active {
 }
 
 .Comp {
-	width: 700px;
-	height: 400px;
+	/*width: 700px;
+	height: 400px;*/
+	width: 100%
 	/*vertical-align: middle;*/
 	margin-bottom: 0.75 em;
 	-webkit-animation-duration: 2s;
@@ -393,24 +393,3 @@ a.active {
 .row {
 	margin-right: 0px;
 }
-/*#id-img {
-  position: relative;
-  width: 20em; min-height: 10em;
-  background: rgba(0,0,0,0) url(images/lfg.png);
-  transition: background-color 1s;
-}
-#id-img:hover {
-  background-color: rgba(0,0,0,.5);
-}
-#id-img:before {
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  background-color: inherit;
-  content: ' ';
-}
-*/
-
-
-/*#proj_saku:hover #saku {
-	opacity: 0.10;
-}*/
