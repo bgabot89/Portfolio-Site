@@ -378,8 +378,21 @@ a.active {
 	opacity: 1;
 }
 
+#proj_saku #black{
+-webkit-transition: all 0.75s ease-out;
+ -moz-transition: all 0.75s ease-out;
+ -o-transition: all 0.75s ease-out;
+ -ms-transition: all 0.75s ease-out;
+ transition: all 0.75s ease-out;
+}
+
 #proj_saku:hover #black{
 	opacity: 0.60;
+	-webkit-transition: all 0.75s ease-in;
+	 -moz-transition: all 0.75s ease-in;
+	 -o-transition: all 0.75s ease-in;
+	 -ms-transition: all 0.75s ease-in;
+	 transition: all 0.75s ease-in;
 }
 
 #black {
