@@ -435,6 +435,13 @@ img#profile {
     color: #fff;
 }
 
+#project-body {
+	background: orange;
+}
+
+.proj-title {
+	font-size: 50px;
+}
 /*img.panel {
 	width: 400px;
 }*/
@@ -443,9 +450,10 @@ figure.snip1205 {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
+  margin: 40px 1%;
+	margin-left: 200px;
   min-width: 220px;
-  max-width: 310px;
+  max-width: 400px;
   width: 100%;
   background: #000000;
   text-align: center;
@@ -487,6 +495,15 @@ figure.snip1205 a {
 figure.snip1205.green {
   background-color: #229955
 }
+figure.snip1205.gray {
+  background-color: #7F7F7F
+}
+figure.snip1205.gold {
+  background-color: #BFAD59
+}
+figure.snip1205.pink {
+  background-color: #E5B8D3
+}
 figure.snip1205:hover img,
 figure.snip1205.hover img {
   opacity: 0.3;
@@ -501,10 +518,10 @@ figure.snip1205.hover i {
 }
 .proj-description {
 	color: white;
-	font-size: 20px;
+	font-size: 30px;
 	position: absolute;
 	top: 75%;
-	left: 25%;
+	left: 20%;
 	opacity: 0;
 }
 figure.snip1205:hover .proj-description {
