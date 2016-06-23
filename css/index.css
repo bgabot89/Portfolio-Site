@@ -59,6 +59,11 @@ li {
 	display: inline-block;
 }
 
+.logo {
+	margin: 0 auto;
+	left: 0;
+}
+
 h2 {
 	text-align: center;
 	font-family: Lato;
@@ -70,7 +75,7 @@ h2 {
 h3 {
 	text-align: center;
 	font-family: Lato;
-		font-size: 30px;
+	font-size: 30px;
 }
 
 .info {
@@ -441,6 +446,10 @@ img#profile {
 
 .proj-title {
 	font-size: 50px;
+}
+hr {
+	width: 20em;
+	border-top: 1px solid black;
 }
 /*img.panel {
 	width: 400px;
