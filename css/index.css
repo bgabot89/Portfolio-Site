@@ -27,11 +27,11 @@ h1 {
 }
 
 .header {
-		padding-top: 15px;
-  	background: url('https://s3-us-west-1.amazonaws.com/portfoliogabot/mono.png');
-	 background-position: center;
-	 background-repeat: no-repeat;
-	 height: 720px;
+	padding-top: 15px;
+	background: linear-gradient(135deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://s3-us-west-1.amazonaws.com/portfoliogabot/mono.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 720px;
 }
 
 .color {
@@ -176,7 +176,6 @@ div.col-md-4:hover .info {
 
 .col-md-12 {
 		padding:10px 0px 50px 0px;
-		background-color:#F27935;
 		margin:-10px 0px 0px 0px;
 }
 span {
@@ -525,7 +524,7 @@ figure.snip1205.hover i {
 	font-size: 30px;
 	position: absolute;
 	top: 75%;
-	left: 20%;
+	left: 25%;
 	opacity: 0;
 }
 figure.snip1205:hover .proj-description {
@@ -539,4 +538,8 @@ figure.snip1205:hover .proj-description {
 #bg-logo {
 	display: block;
 	margin-top: 70px;
+}
+
+.list-resume {
+	margin-left: 30px;
 }
